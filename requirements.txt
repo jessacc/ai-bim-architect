@@ -1,5 +1,3 @@
-# Backend Dependencies
-
 # Web Framework
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
@@ -39,30 +37,19 @@ peft==0.7.1
 Pillow==10.1.0
 opencv-python==4.8.1.78
 scikit-image==0.22.0
-OCR==0.0.9
 craft-text-detector==0.4.3
 
 # Geometry & BIM
-OCP==7.7.2
 ifcopenshell==0.7.0
 pyassimp==4.1.4
 trimesh==4.0.0
 numpy==1.26.3
 scipy==1.11.4
-scikit-geometry==0.2.8
-
-# 3D & Graphics
-PyOpenGL==3.1.7
-Babylon.js==7.0.0
-three.js==r156
 
 # Data Processing
 pandas==2.1.3
 polars==0.19.19
 openpyxl==3.11.0
-python-pptx==0.6.21
-PyPDF2==3.17.1
-reportlab==4.0.9
 
 # Logging & Monitoring
 python-logging-loki==0.3.2
@@ -74,7 +61,6 @@ structlog==23.3.0
 python-dotenv==1.0.0
 pytz==2023.3.post1
 python-dateutil==2.8.2
-pathlib==1.0.1
 click==8.1.7
 tqdm==4.66.1
 
@@ -97,18 +83,6 @@ python-socketio==5.10.0
 python-engineio==4.8.0
 aiofiles==23.2.1
 
-# PDF Generation
-WeasyPrint==60.1
-jinja2==3.1.2
-
-# Export Formats
-openpyxl==3.11.0
-fastexcel==0.10.5
-
 # Performance
 orjson==3.9.10
 uvloop==0.19.0
-
-# Development
-ipython==8.19.0
-jupyter==1.0.0
